@@ -16,6 +16,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+body {
+  margin: 1rem 10rem 1rem 10rem;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
